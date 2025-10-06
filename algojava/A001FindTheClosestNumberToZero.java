@@ -25,3 +25,24 @@ public class A001FindTheClosestNumberToZero {
         System.out.println("Closest Number To Zero is: " + closestNumToZero);
     }
 }
+
+//for leetCode
+
+// public int findClosestNumber(int[] nums) {
+//        Integer closestNum = nums[0];
+//
+//        for (int i = 0; i < nums.length; i++) {
+//            if(closestNum ==  nums[i]){
+//                closestNum = nums[i];
+//            }
+//            else if(Math.abs(closestNum - 0) == Math.abs(nums[i] - 0)) {
+//                closestNum = Math.abs(closestNum);
+//            }
+//            if(Math.abs(closestNum - 0) > (Math.abs(nums[i]) - 0))
+//            {
+//                closestNum = nums[i];
+//            }
+//        }
+//
+//        return closestNum;
+//    }
