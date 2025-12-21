@@ -8,11 +8,15 @@ public class A007ProductExceptSelf {
 
         for(int i = 0; i < nums.length; i++){
             listOfProduct[i] = prefix;
+            System.out.println(listOfProduct[i]);
             prefix *= nums[i];
+            System.out.println("prefix-> " + prefix);
         }
         for(int i = nums.length-1; i >=0 ; i--){
             listOfProduct[i] *= suffix;
+            System.out.println(listOfProduct[i]);
             suffix *= nums[i];
+            System.out.println("suffix-> " + suffix);
         }
         return listOfProduct;
     }
