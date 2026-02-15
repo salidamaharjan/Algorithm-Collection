@@ -1,13 +1,7 @@
 
 public class A0014LongestStringChain {
     public static int longestStrChain(String[] words) {
-        int count = 0;
-        for(int i = 1; i < words.length; i++) {
-            if(words[i].contains(words[0])){
-                count++;
-            }
-        }
-        return count;
+        return 0;
     }
 
     public static void main(String[] args) {
